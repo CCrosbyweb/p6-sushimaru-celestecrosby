@@ -15,11 +15,11 @@
   
   <body>
 <!-- Nav -->
-      <div class="contain-to-grid">
+      <div class="fixed contain-to-grid">
         <nav class="top-bar" data-topbar>
         <ul class="title-area">
           <li class="name">
-            <h1><a href="#">Sushi Maru</a></h1>
+            <h1><a href="#top">Sushi Maru</a></h1>
           </li>
            <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
           <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
@@ -28,66 +28,91 @@
         <section class="top-bar-section">
           <!-- Right Nav Section -->
           <ul class="right">
-            <li class="active"><a href="#">Right Button Active</a></li>
+            <li><a href="#about">About Us</a></li>
             <li class="has-dropdown">
-              <a href="#">Right Button Dropdown</a>
+              <a href="#menu">Menu</a>
               <ul class="dropdown">
-                <li><a href="#">First link in dropdown</a></li>
+                <li><a href="#">Raw</a></li>
+                <li><a href="#">Vegetarian</a></li>
+                <li><a href="#">Spicy</a></li>
               </ul>
             </li>
-          </ul>
-
-          <!-- Left Nav Section -->
-          <ul class="left">
-            <li><a href="#">Left Nav Button</a></li>
+            <li><a href="#about">Gallery</a></li>
+            <li><a href="#about">Contact Info</a></li>
           </ul>
         </section>
       </nav>
     </div>
 <!-- End Of Nav -->
-<div class="row">
+
+<div class="row" id="top">
+  <div class="large-12 columns image">
+    <img src="img/bgfix.jpg"><hr>
+    <img class="logo"src="img/logo.png" alt="">
+  </div>
+</div>
+<!-- Start of About Section -->
+<div class="bglight">
+  <div class="row">
     <div class="large-12 columns">
-      <img src="http://placehold.it/1000x400&text=[img]">
- 
-      <hr>
+      <h1 id="about">About Us</h1>
     </div>
   </div>
    
- 
   <div class="row">
     <div class="large-4 columns">
-      <img src="http://placehold.it/400x300&text=[img]">
+        <h4>About Us</h4>
+        <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
+   
     </div>
-    <div class="large-8 columns">
-      <h4>This is a content section.</h4>
-      <div class="row">
-        <div class="large-6 columns">
-          <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
-        </div>
-        <div class="large-6 columns">
-          <p>Pork drumstick turkey fugiat. Tri-tip elit turducken pork chop in. Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>
-        </div>
-      </div>
+    <div class="large-4 medium-6 columns show-for-medium-up">
+        <h4>Featured Item</h4>
+        <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
+    </div>
+    <div class="large-4 medium-6  columns show-for-medium-up">
+        <img src="http://placehold.it/400x300&text=[img]">
     </div>
   </div>
- 
- 
    
- 
   <div class="row">
-    <div class="large-8 columns">
-      <h4>This is a content section.</h4>
- 
+    <div class="large-4 medium-6 show-for-medium-up columns">
+      <img src="http://placehold.it/400x300&text=[img]">
+    </div>
+      <div class="small-12 show-for-small-only columns">
+      <img src="http://placehold.it/600x300&text=[img]">
+    </div>
+      <div class="large-8 medium-6  columns">
+      <h4>Conveyor Belt Sushi</h4>
       <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
- 
       <p>Pork drumstick turkey fugiat. Tri-tip elit turducken pork chop in. Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>
- 
-    </div>
-    <div class="large-4 columns">
-      <img src="http://placehold.it/400x300&text=[img]">
     </div>
   </div>
- 
+</div>
+<!-- End Of About Section -->
+ <!-- Start of Menu Section -->
+<div class="row">
+  <dl class="tabs" data-tab>
+    <dd class="active"><a href="#panel2-1">Tab 1</a></dd>
+    <dd><a href="#panel2-2">Appetizers</a></dd>
+    <dd><a href="#panel2-3">Rolls & Sushi</a></dd>
+    <dd><a href="#panel2-4">Entree</a></dd>
+  </dl>
+  <div class="tabs-content">
+    <div class="content active" id="panel2-1">
+      <p>First panel content goes here...</p>
+    </div>
+    <div class="content" id="panel2-2">
+      <p>Second panel content goes here...</p>
+    </div>
+    <div class="content" id="panel2-3">
+      <p>Third panel content goes here...</p>
+    </div>
+    <div class="content" id="panel2-4">
+      <p>Fourth panel content goes here...</p>
+    </div>
+  </div>
+</div>
+<!-- End Of Menu Section -->
  
    
  
