@@ -29,14 +29,7 @@
           <!-- Right Nav Section -->
           <ul class="right">
             <li><a href="#about">About Us</a></li>
-            <li class="has-dropdown">
-              <a href="#menu">Menu</a>
-              <ul class="dropdown">
-                <li><a href="#">Raw</a></li>
-                <li><a href="#">Vegetarian</a></li>
-                <li><a href="#">Spicy</a></li>
-              </ul>
-            </li>
+        <li><a href="#menu">Menu</a></li>
             <li><a href="#about">Gallery</a></li>
             <li><a href="#about">Contact Info</a></li>
           </ul>
@@ -47,7 +40,7 @@
 
 <div class="row" id="top">
   <div class="large-12 columns image">
-    <img src="img/bgfix.jpg"><hr>
+    <img src="img/bgfix.jpg">
     <img class="logo"src="img/logo.png" alt="">
   </div>
 </div>
@@ -60,26 +53,23 @@
   </div>
    
   <div class="row">
-    <div class="large-4 columns">
+    <div class="large-8  columns">
         <h4>About Us</h4>
-        <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
+        <p>Sushi Maru invites you to enjoy our kaiten-zushi dining experience* serving both traditional and creative sushi in a relaxed and friendly atmosphere.  “Maru” means round or perfection. Our extensive menu features a wide variety of the high quality sushi and sushi rolls, as well as tataki, udon, cooked appetizers and desserts for everyone.  The selection is not limited to sushi We are proud of our professional and exceptionalservice that we extend to each of our guests. Great with kids and beginner sushi eaters; we not only offer a comprehensive sushi menu but also a wide selection of non-sushi/seafood items such as Honey Walnut Shrimp or even Popcorn Chicken.</p>
    
     </div>
-    <div class="large-4 medium-6 columns show-for-medium-up">
-        <h4>Featured Item</h4>
-        <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
-    </div>
-    <div class="large-4 medium-6  columns show-for-medium-up">
-        <img src="http://placehold.it/400x300&text=[img]">
+
+    <div class="large-4 medium-6  columns show-for-large-up">
+        <img  src="img/sign.jpg">
     </div>
   </div>
    
   <div class="row">
     <div class="large-4 medium-6 show-for-medium-up columns">
-      <img src="http://placehold.it/400x300&text=[img]">
+      <img src="img/convey0411.jpg">
     </div>
-      <div class="small-12 show-for-small-only columns">
-      <img src="http://placehold.it/600x300&text=[img]">
+      <div class="small-12 show-for-small-only columns ">
+      <img src="img/dsc_0092.jpg">
     </div>
       <div class="large-8 medium-6  columns">
       <h4>Conveyor Belt Sushi</h4>
@@ -90,33 +80,105 @@
 </div>
 <!-- End Of About Section -->
  <!-- Start of Menu Section -->
-<div class="row">
+
+
+  <div class="row " id="menu">
+    <div class="small-12 columns dis">
+      <h1 id="about">Menu</h1>
+      <div class="vt"><p>Vegetarian</p></div>
+      <div class="rt"><p>Raw</b></p></div>
+      <div class="st"><p>Spicy</b></p></div>
+    </div>
+
+<div class="row" >
+  <div class="large-12 columns">
   <dl class="tabs" data-tab>
-    <dd class="active"><a href="#panel2-1">Tab 1</a></dd>
-    <dd><a href="#panel2-2">Appetizers</a></dd>
-    <dd><a href="#panel2-3">Rolls & Sushi</a></dd>
-    <dd><a href="#panel2-4">Entree</a></dd>
+    
+    <dd><a href="#appetizers">Appetizers</a></dd>
+    <dd class="active"><a href="#rolls">Rolls & Sushi</a></dd>
+    <dd><a href="#entree">Entree</a></dd>
+    <dd><a href="#desserts">Desserts</a></dd>
   </dl>
   <div class="tabs-content">
-    <div class="content active" id="panel2-1">
-      <p>First panel content goes here...</p>
+    <div class="content " id="appetizers">
+        <dl class="accordion" data-accordion> 
+          <dd>
+            <a href="#panel2">Cucumber Salad </a>
+            <h5 class="price">$1.50</h5>
+            <div id="panel2" class="content">
+              Sliced cucumbers in House Vinegar Dressing with ebi (shrimp)
+            </div>
+          </dd>
+          <dd>
+            <a href="#panel3">Gyoza</a>
+            <h5 class="price">$1.50</h5>
+            <div id="panel3" class="content">
+             Fried dumplings stuffed with shredded pork
+            </div>
+          </dd>
+        </dl>
     </div>
-    <div class="content" id="panel2-2">
-      <p>Second panel content goes here...</p>
+    <div class="content active" id="rolls">
+      <dl class="accordion" data-accordion> 
+          <dd>
+            <a href="#panel2">Cucumber Roll </a>
+            <h5 class="price">$1.50</h5>
+            <div class="v"><p>V</p></div>
+
+          </dd>
+          <dd>
+            <a href="#panel3">Gyoza</a>
+            <h5 class="price">$1.50</h5>
+            <div id="panel3" class="content">
+             Fried dumplings stuffed with shredded pork
+            </div>
+          </dd>
+        </dl>
     </div>
-    <div class="content" id="panel2-3">
-      <p>Third panel content goes here...</p>
+    <div class="content" id="entree">
+      <dl class="accordion" data-accordion> 
+          <dd>
+            <a href="#panel2">Cucumber Salad </a>
+            <h5 class="price">$1.50</h5>
+            <div id="panel2" class="content">
+              Sliced cucumbers in House Vinegar Dressing with ebi (shrimp)
+            </div>
+          </dd>
+          <dd>
+            <a href="#panel3">Gyoza</a>
+            <h5 class="price">$1.50</h5>
+            <div id="panel3" class="content">
+             Fried dumplings stuffed with shredded pork
+            </div>
+          </dd>
+        </dl>
     </div>
-    <div class="content" id="panel2-4">
-      <p>Fourth panel content goes here...</p>
+    <div class="content" id="desserts">
+      <dl class="accordion" data-accordion> 
+          <dd>
+            <a href="#panel2">Cucumber Salad </a>
+            <h5 class="price">$1.50</h5>
+            <div id="panel2" class="content">
+              Sliced cucumbers in House Vinegar Dressing with ebi (shrimp)
+            </div>
+          </dd>
+          <dd>
+            <a href="#panel3">Gyoza</a>
+            <h5 class="price">$1.50</h5>
+            <div id="panel3" class="content">
+             Fried dumplings stuffed with shredded pork
+            </div>
+          </dd>
+        </dl>
     </div>
   </div>
+</div>
 </div>
 <!-- End Of Menu Section -->
  
    
  
-  <footer class="row">
+  <footer class="row" >
     <div class="large-12 columns">
       <hr/>
       <div class="row">
