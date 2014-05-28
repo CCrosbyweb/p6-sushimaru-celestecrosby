@@ -1,13 +1,17 @@
 /* GLOBAL */
-body {
+/*body {
     
     background: url(../img/background.jpg)no-repeat fixed center ;
-}
+}*/
 .bglight {
     background: rgba(239, 239, 239, 0.9);
 }
 .bgdark {
     background: rgba(60, 5, 5, 0.9);;
+}
+.foodimg {
+    box-shadow: 1, 1, 1, ;
+    padding: 0;
 }
 
 .image {
