@@ -3,17 +3,34 @@
     
     background: url(../img/background.jpg)no-repeat fixed center ;
 }*/
+li {
+    list-style: none;
+}
+.contact {
+    text-align: center;
+}
 .bglight {
     background: rgba(239, 239, 239, 0.9);
 }
 .bgdark {
-    background: rgba(60, 5, 5, 0.9);;
+    background: rgba(39, 4, 4, 1);
 }
 .foodimg {
     
     padding: 0;
 }
+.gallery {
+    position: relative;
+    
+}
+.galleryhead {
+    position: absolute;
+    top: -60px;
+    left: 10px; 
+    color: rgb(204, 204, 204);
+    font-size: 90px;
 
+}
 .image {
     text-align: center;
     position: relative;
@@ -45,7 +62,7 @@ b {
 }
 .s {
     background: #b21005;
-    width: 25px;
+    width: 110px;
     height: 25px;
     border-radius: 20px;
     text-align: center;
@@ -55,7 +72,7 @@ b {
 }
 .v {
     background: #2ea62b;
-    width: 25px;
+    width: 110px;
     height: 25px;
     border-radius: 20px;
     text-align: center;
@@ -65,7 +82,7 @@ b {
 }
 .r {
     background: #cd599d;
-    width: 25px;
+    width: 110px;
     height: 25px;
     border-radius: 20px;
     text-align: center;
@@ -77,30 +94,7 @@ b {
     color: white;
 }
 
-.vt, .rt, .st {
-    width: 110px;
-    height: 25px;
-    border-radius: 20px;
-    text-align: center;
-    position: absolute;
-    bottom: 35px;
-}
-.vt p, .rt p, .st p{
-    color: white;
-}
-.vt {
-    background: #2ea62b;
-    right: 0;
-}
-.rt {
-    background: #cd599d;
-    right: 150px;
-}
 
-.st {
-    background: #b21005;
-    right: 300px;
-}
 img {
     max-height: 100%;
 }
@@ -121,7 +115,7 @@ img {
     padding-right: 4px; 
 }*/
 }
-@media only screen and (max-width: 580px) { 
+@media only screen and (max-width: 650px) { 
 
     .tabs dd > a {
     padding-left: 10px;
@@ -137,6 +131,10 @@ img {
     .st {
         right: 160px;
         width: 60px;
+    }
+    .galleryhead {
+    top: -30px;
+    font-size: 50px;
     }
 }
 
